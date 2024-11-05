@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	font-family: 'Montserrat';
+	height: 100%;
+}
+
+.background-section {
+	min-height: 100vh;
+	width: 100%;
+	background-image: url('../img/Batman_final_background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 50px;
+}
+
+.content {
+	background-color: white;
+	padding: 20px;
+}
+.black-content {
+	background-color: black;
+	padding: 20px;
+}
+
+.brand-name {
+	margin-top: 390px;
+	margin-left: 120px;
+	font-size: 90px;
+	letter-spacing: 10px;
+	color: white;
+}
+
+.question-text {
+	margin-right: 120px;
+	font-size: 64px;
+	color: white;
+	font-weight: bold;
+	text-align: right;
+}
+.main-text {
+	font-size: 28px;
+	font-weight: bold;
+}
+.name-work-text {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.main-text-white {
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+}
+.description-text {
+	margin-left: 120px;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+}
+.extra-bold-text {
+	font-size: 96px;
+	text-align: center;
+}
+.h2-text {
+	font-size: 40px;
+}
+.h2-text-white {
+	font-size: 40px;
+	color: white;
+	margin-left: 50px;
+}
+.extra-bold-text-white {
+	font-size: 96px;
+	text-align: center;
+	color: white;
+}
+.black-text {
+	color: black;
+}
+.image-links {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin-top: 430px;
+}
+
+.image-links img {
+	width: 50px;
+	height: 50px;
+}
+
+.copyright-sign {
+	color: white;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	margin-left: 120px;
+	padding: 20px;
+}
+
+.container img {
+	margin-right: 90px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.text-container {
+	display: flex;
+	flex-direction: column;
+}
+.center-align {
+	text-align: center;
+}
+
+.description {
+	font-size: 16px;
+}
+main {
+	width: 100%;
+}
+
+.inline-li {
+	display: inline;
+	margin-right: 100px;
+}
+
+li:last-child {
+	margin-right: 0px;
+}
+
+nav ul li a {
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: #b7c4c7;
+}
+.nav-link {
+	color: white;
+}
+
+.nav-link.active {
+	color: red;
+}
+/* Стили для таблицы */
+.custom-table {
+	width: 100%; /* ширина таблицы */
+	border-collapse: collapse; /* объединение границ */
+	background-image: url('../img/table_background.png'); /* фон для таблицы */
+	background-size: cover; /* размер фона */
+}
+
+.custom-table th,
+.custom-table td {
+	padding: 15px;
+	text-align: left;
+	border: 3px solid #000000;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.custom-table th {
+	background-color: rgba(153, 153, 153, 0.9);
+}
